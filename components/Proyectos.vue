@@ -44,7 +44,7 @@
 
                             <GithubNewMerge text="dmartinezh97 fue contratado como Full-Stack Developer en AT Infoserveis"></GithubNewMerge>
 
-                            <GithubNewCommit text="dmartinezh97 añadió la informatica a la branch de intereses"></GithubNewCommit>
+                            <GithubNewCommit tipo="Merged" text="dmartinezh97 añadió la informatica a la branch de intereses"></GithubNewCommit>
 
                             <GithubNewMerge text="dmartinezh97 merged commit d31m10h97 en master el 31 de octubre de 1997"></GithubNewMerge>
                         </ul>
