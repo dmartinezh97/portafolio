@@ -49,11 +49,11 @@
                             <!-- CICLO SUPERIOR ASIR -->
                             <!-- CICLO SUPERIOR -->
                             <!-- CICLO MEDIO -->
-                            <GithubNewMerge text="Cursó un grado de Administración de Sistemas Informáticos en Red a nivel de grado superior"></GithubNewMerge>
+                            <GithubNewCommit text="Cursó un grado de Administración de Sistemas Informáticos en Red a nivel de grado superior"></GithubNewCommit>
 
-                            <GithubNewMerge text="Se graduó en Desarrollo de Aplicaciones Multiplataforma a nivel de grado superior"></GithubNewMerge>
+                            <GithubNewCommit text="Se graduó en Desarrollo de Aplicaciones Multiplataforma a nivel de grado superior"></GithubNewCommit>
 
-                            <GithubNewMerge text="Se graduó en Sistemas Microinformáticos y Redes a nivel de grado medio"></GithubNewMerge>
+                            <GithubNewCommit text="Se graduó en Sistemas Microinformáticos y Redes a nivel de grado medio"></GithubNewCommit>
 
                             <GithubNewMerge text="Participó en un programa de prácticas en Audens Food S.A."></GithubNewMerge>
 
