@@ -44,12 +44,17 @@
 
                             <GithubNewMerge text="dmartinezh97 fue contratado como Full-Stack Developer en AT Infoserveis"></GithubNewMerge>
 
-                            <GithubNewMerge text="dmartinezh97 realizó como Full-Stack Developer en AT Infoserveis"></GithubNewMerge>
-
+                            
                             <!-- AdStorm -->
                             <!-- CICLO SUPERIOR ASIR -->
                             <!-- CICLO SUPERIOR -->
                             <!-- CICLO MEDIO -->
+                            <GithubNewMerge text="Cursó un grado de Administración de Sistemas Informáticos en Red a nivel de grado superior"></GithubNewMerge>
+
+                            <GithubNewMerge text="Se graduó en Desarrollo de Aplicaciones Multiplataforma a nivel de grado superior"></GithubNewMerge>
+
+                            <GithubNewMerge text="Se graduó en Sistemas Microinformáticos y Redes a nivel de grado medio"></GithubNewMerge>
+
                             <GithubNewMerge text="Participó en un programa de prácticas en Audens Food S.A."></GithubNewMerge>
 
                             <GithubNewCommit text="Añadió la informatica a la branch de intereses"></GithubNewCommit>
