@@ -38,14 +38,15 @@
                                 Dani se unió a Global Planning Solutions como Front-End.
                                 Dani comenzó a trabajar como Front-End en Global Planning Solutions.
                              -->
-                             <GithubNewMerge tipo="Actualmente" text="dmartinezh97 obtuvo un trabajo como Front-End en Global Planning Solutions"></GithubNewMerge>
+                            <GithubNewCommit tipo="En progreso" text="dmartinezh97 comenzó una formación sobre Nuxt 3"></GithubNewCommit>
 
-                             <GithubNewMerge tipo="En progreso" text="dmartinezh97 comenzó una formación sobre Nuxt 3"></GithubNewMerge>
+                            <GithubNewMerge tipo="Actualmente" text="dmartinezh97 obtuvo un trabajo como Front-End en Global Planning Solutions"></GithubNewMerge>
+
+                            <GithubNewMerge text="dmartinezh97 fue contratado como Full-Stack Developer en AT Infoserveis"></GithubNewMerge>
 
                             <GithubNewCommit text="dmartinezh97 añadió la informatica a la branch de intereses"></GithubNewCommit>
 
                             <GithubNewMerge text="dmartinezh97 merged commit d31m10h97 en master el 31 de octubre de 1997"></GithubNewMerge>
-
                         </ul>
                         <!-- End Timeline -->
                     </div>
