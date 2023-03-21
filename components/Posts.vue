@@ -1,6 +1,5 @@
 <template>
-    
-    <div class="relative flex flex-col w-full p-4 bg-white border border-gray-200 rounded-lg shadow sm:p-6">
+    <div class="w-full p-4 bg-white border border-gray-200 rounded-lg shadow sm:p-6">
         <h5 class="mb-3 text-base font-semibold text-gray-900 md:text-xl">
             Connect wallet
         </h5>
@@ -44,5 +43,4 @@
                 Why do I need to connect with my wallet?</a>
         </div>
     </div>
-
 </template>

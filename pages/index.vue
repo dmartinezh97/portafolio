@@ -1,13 +1,13 @@
 <template>
     <div>
         <div class="contenedor p-4">
-            <div class="aside w-full p-2">
+            <div class="aside p-2">
                 <Informacion></Informacion>
             </div>
-            <div class="main w-full p-2">
+            <div class="main p-2">
                 <Proyectos></Proyectos>
             </div>
-            <div class="info w-full p-2">
+            <div class="info p-2">
                 <Posts></Posts>
             </div>
             <div class="feed p-2">
@@ -22,7 +22,8 @@
     display: grid;
     grid-template-areas: "aside main main info"
                          "aside main main info"
-                         ". feed feed ."
+                         ". feed feed .";
+    grid-template-columns: repeat(4, 1fr);
 }
 
 .aside{
