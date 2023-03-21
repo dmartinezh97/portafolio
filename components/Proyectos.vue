@@ -38,7 +38,7 @@
                                 Dani se unió a Global Planning Solutions como Front-End.
                                 Dani comenzó a trabajar como Front-End en Global Planning Solutions.
                              -->
-                             <GithubNewMerge text="dmartinezh97 obtuvo un trabajo como Front-End en Global Planning Solutions"></GithubNewMerge>
+                             <GithubNewMerge tipo="Actualmente" text="dmartinezh97 obtuvo un trabajo como Front-End en Global Planning Solutions"></GithubNewMerge>
 
                             <GithubNewCommit text="dmartinezh97 añadió la informatica a la branch de intereses"></GithubNewCommit>
 
