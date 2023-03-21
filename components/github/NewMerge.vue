@@ -1,5 +1,5 @@
 <template>
-    <li class="relative flex gap-x-4 pb-7 overflow-hidden">
+    <li class="relative flex gap-x-4 items-center justify-between pb-7 overflow-hidden">
         <div class="flex gap-x-4">
             <div class="mt-0.5 relative h-full">
                 <div
@@ -16,7 +16,7 @@
                 {{ text }}
             </p>
         </div>
-        <span class="inline-flex items-center h-6 bg-green-100 text-green-800 text-xs font-medium px-2.5 py-0.5 rounded-full" :class="classTextTipo">
+        <span  v-if="tipo" class="inline-flex items-center h-6 bg-green-100 text-green-800 text-xs font-medium px-2.5 py-0.5 rounded-full" :class="classTextTipo">
             <span class="w-2 h-2 mr-1 bg-green-500 rounded-full" :class="classObjectTipo"></span>
             {{ tipo }}
         </span>
