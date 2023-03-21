@@ -44,7 +44,15 @@
 
                             <GithubNewMerge text="dmartinezh97 fue contratado como Full-Stack Developer en AT Infoserveis"></GithubNewMerge>
 
-                            <GithubNewCommit text="dmartinezh97 añadió la informatica a la branch de intereses"></GithubNewCommit>
+                            <GithubNewMerge text="dmartinezh97 realizó como Full-Stack Developer en AT Infoserveis"></GithubNewMerge>
+
+                            <!-- AdStorm -->
+                            <!-- CICLO SUPERIOR ASIR -->
+                            <!-- CICLO SUPERIOR -->
+                            <!-- CICLO MEDIO -->
+                            <GithubNewMerge text="Participó en un programa de prácticas en Audens Food S.A."></GithubNewMerge>
+
+                            <GithubNewCommit text="Añadió la informatica a la branch de intereses"></GithubNewCommit>
 
                             <GithubNewMerge tipo="Merged" text="dmartinezh97 merged commit d31m10h97 en master el 31 de octubre de 1997"></GithubNewMerge>
                         </ul>
