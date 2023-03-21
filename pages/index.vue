@@ -8,7 +8,7 @@
                 <Proyectos></Proyectos>
             </div>
             <div class="info p-2">
-                <Informacion></Informacion>
+                <Posts></Posts>
             </div>
             <div class="feed p-2">
                 feed
