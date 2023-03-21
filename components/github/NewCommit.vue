@@ -16,9 +16,9 @@
                 {{ text }}
             </p>
         </div>
-        <span v-if="tipo"
-            class="inline-flex items-center h-6 bg-green-100 text-green-800 text-xs font-medium px-2.5 py-0.5 rounded-full" :class="classTextTipo">
-            <span class="w-2 h-2 mr-1 bg-green-500 rounded-full" :class="classObjectTipo"></span>
+        <span v-if="tipo" class="inline-flex items-center h-6 text-xs font-medium px-2.5 py-0.5 rounded-full"
+            :class="classTextTipo">
+            <span class="w-2 h-2 mr-1 rounded-full" :class="classObjectTipo"></span>
             {{ tipo }}
         </span>
     </li>
@@ -42,8 +42,8 @@ export default {
                 'bg-orange-100 text-orange-800': this.tipo == 'En progreso',
             },
             classObjectTipo: {
-                'bg-green-100': this.tipo == 'Actualmente',
-                'bg-orange-100': this.tipo == 'En progreso',
+                'bg-green-500': this.tipo == 'Actualmente',
+                'bg-orange-500': this.tipo == 'En progreso',
             }
         }
     }

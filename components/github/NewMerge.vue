@@ -2,8 +2,7 @@
     <li class="relative flex gap-x-4 items-center justify-between pb-7 overflow-hidden">
         <div class="flex gap-x-4">
             <div class="mt-0.5 relative h-full">
-                <div
-                    class="absolute top-7 bottom-0 left-2.5 w-px h-96 -ml-px border-r border-dashed border-gray-300">
+                <div class="absolute top-7 bottom-0 left-2.5 w-px h-96 -ml-px border-r border-dashed border-gray-300">
                 </div>
                 <svg class="w-5 h-5 text-gray-800" width="24" height="24" viewBox="0 0 24 24" fill="none"
                     xmlns="http://www.w3.org/2000/svg">
@@ -12,12 +11,14 @@
                         stroke="currentColor" stroke-linecap="round"></path>
                 </svg>
             </div>
-            <p class="py-1.5 px-2.5 rounded-full text-xs font-medium text-gray-600 bg-white border border-gray-200 shadow-sm">
+            <p
+                class="py-1.5 px-2.5 rounded-full text-xs font-medium text-gray-600 bg-white border border-gray-200 shadow-sm">
                 {{ text }}
             </p>
         </div>
-        <span  v-if="tipo" class="inline-flex items-center h-6 bg-green-100 text-green-800 text-xs font-medium px-2.5 py-0.5 rounded-full" :class="classTextTipo">
-            <span class="w-2 h-2 mr-1 bg-green-500 rounded-full" :class="classObjectTipo"></span>
+        <span v-if="tipo" class="inline-flex items-center h-6 text-xs font-medium px-2.5 py-0.5 rounded-full"
+            :class="classTextTipo">
+            <span class="w-2 h-2 mr-1 rounded-full" :class="classObjectTipo"></span>
             {{ tipo }}
         </span>
     </li>
@@ -41,8 +42,8 @@ export default {
                 'bg-orange-100 text-orange-800': this.tipo == 'En progreso',
             },
             classObjectTipo: {
-                'bg-green-100': this.tipo == 'Actualmente',
-                'bg-orange-100': this.tipo == 'En progreso',
+                'bg-green-500': this.tipo == 'Actualmente',
+                'bg-orange-500': this.tipo == 'En progreso',
             }
         }
     }
