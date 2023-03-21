@@ -11,7 +11,7 @@
                 <Posts></Posts>
             </div>
             <div class="feed p-2">
-                feed
+                Feed de twitter con.. ¿Qué datos? :)
             </div>
         </div>
     </div>
