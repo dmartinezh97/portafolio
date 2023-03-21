@@ -31,7 +31,7 @@ export default {
         tipo: {
             type: String,
             validator: function (value) {
-                return ['Actualmente', 'En progreso', 'Merged'].indexOf(value) !== -1;
+                return ['Actualmente', 'En progreso', 'Merged', 'Abierta'].indexOf(value) !== -1;
             }
         }
     },
@@ -41,11 +41,13 @@ export default {
                 'bg-green-100 text-green-800': this.tipo == 'Actualmente',
                 'bg-orange-100 text-orange-800': this.tipo == 'En progreso',
                 'bg-purple-100 text-purple-800': this.tipo == 'Merged',
+                'bg-green-100 text-green-800': this.tipo == 'Abierta',
             },
             classObjectTipo: {
                 'bg-green-500': this.tipo == 'Actualmente',
                 'bg-orange-500': this.tipo == 'En progreso',
                 'bg-purple-500': this.tipo == 'Merged',
+                'bg-green-500': this.tipo == 'Abierta',
             }
         }
     }
