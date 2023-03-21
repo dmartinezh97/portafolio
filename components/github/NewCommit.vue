@@ -31,7 +31,7 @@ export default {
         tipo: {
             type: String,
             validator: function (value) {
-                return ['Actualmente'].indexOf(value) !== -1;
+                return ['Actualmente', 'En progreso'].indexOf(value) !== -1;
             }
         }
     },
@@ -39,9 +39,11 @@ export default {
         return {
             classTextTipo: {
                 'bg-green-100 text-green-800': this.tipo == 'Actualmente',
+                'bg-orange-100 text-orange-800': this.tipo == 'En progreso',
             },
             classObjectTipo: {
                 'bg-green-100': this.tipo == 'Actualmente',
+                'bg-orange-100': this.tipo == 'En progreso',
             }
         }
     }
