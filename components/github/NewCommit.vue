@@ -3,9 +3,9 @@
         <div class="flex gap-x-4">
             <div class="mt-0.5 relative h-full">
                 <div
-                    class="absolute top-7 bottom-0 left-2.5 w-px h-96 -ml-px border-r border-dashed border-gray-300 dark:border-gray-600">
+                    class="absolute top-7 bottom-0 left-2.5 w-px h-96 -ml-px border-r border-dashed border-gray-300">
                 </div>
-                <svg class="w-5 h-5 text-gray-800 dark:text-gray-200" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                <svg class="w-5 h-5 text-gray-800" width="24" height="24" viewBox="0 0 24 24" fill="none"
                     xmlns="http://www.w3.org/2000/svg">
                     <path
                         d="M16.8462 12.3462C16.8462 15.0226 14.6765 17.1923 12 17.1923C9.32354 17.1923 7.15385 15.0226 7.15385 12.3462M16.8462 12.3462C16.8462 9.6697 14.6765 7.5 12 7.5C9.32354 7.5 7.15385 9.6697 7.15385 12.3462M16.8462 12.3462H22.5M7.15385 12.3462H1.5"
@@ -13,11 +13,11 @@
                 </svg>
             </div>
             <p
-                class="py-1.5 px-2.5 rounded-full text-xs font-medium text-gray-600 bg-white border border-gray-200 shadow-sm dark:text-gray-400 dark:bg-slate-900 dark:border-gray-700">
+                class="py-1.5 px-2.5 rounded-full text-xs font-medium text-gray-600 bg-white border border-gray-200 shadow-smb">
                 {{ text }}
             </p>
         </div>
-        <span class="inline-flex items-center h-6 bg-green-100 text-green-800 text-xs font-medium px-2.5 py-0.5 rounded-full dark:bg-green-900 dark:text-green-300">
+        <span class="inline-flex items-center h-6 bg-green-100 text-green-800 text-xs font-medium px-2.5 py-0.5 rounded-full">
             <span class="w-2 h-2 mr-1 bg-green-500 rounded-full"></span>
             Available
         </span>
