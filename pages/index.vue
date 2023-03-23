@@ -5,10 +5,10 @@
                 <Informacion></Informacion>
             </div>
             <div class="main p-2">
-                <Proyectos></Proyectos>
+                <Timeline></Timeline>
             </div>
             <div class="info p-2">
-                <Posts></Posts>
+                <Articulos></Articulos>
             </div>
             <div class="feed p-2">
                 Feed de twitter con.. ¿Qué datos? :)

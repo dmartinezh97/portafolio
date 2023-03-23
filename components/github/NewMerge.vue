@@ -17,8 +17,8 @@
             </p>
         </div>
         <span v-if="tipo" class="inline-flex items-center h-6 text-xs font-medium px-2.5 py-0.5 rounded-full"
-            :class="classTextTipo">
-            <span class="w-2 h-2 mr-1 rounded-full" :class="classObjectTipo"></span>
+            :class="'bg-'+color+'-100 text-'+color+'-800'">
+            <span class="w-2 h-2 mr-1 rounded-full " :class="'bg-'+color+'-500'"></span>
             {{ tipo }}
         </span>
     </li>
@@ -28,26 +28,8 @@
 export default {
     props: {
         text: String,
-        tipo: {
-            type: String,
-            validator: function (value) {
-                return ['Actualmente', 'En progreso', 'Merged', 'Abierta'].indexOf(value) !== -1;
-            }
-        }
-    },
-    data() {
-        return {
-            classTextTipo: {
-                'bg-green-100 text-green-800': this.tipo == 'Actualmente' || this.tipo == 'Abierta',
-                'bg-orange-100 text-orange-800': this.tipo == 'En progreso',
-                'bg-purple-100 text-purple-800': this.tipo == 'Merged',
-            },
-            classObjectTipo: {
-                'bg-green-500': this.tipo == 'Actualmente' || this.tipo == 'Abierta',
-                'bg-orange-500': this.tipo == 'En progreso',
-                'bg-purple-500': this.tipo == 'Merged',
-            }
-        }
+        tipo: String,
+        color: String
     }
 }
 </script>
