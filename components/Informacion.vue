@@ -7,7 +7,7 @@
                 class="absolute flex h-32 w-full justify-center rounded-xl bg-cover"> -->
             <div
                 class="absolute -bottom-14 flex h-[120px] w-[120px] items-center justify-center rounded-full border-[4px] border-white bg-pink-400">
-                <img class="h-full w-full rounded-full" src="~/assets/avatar.png" alt="Foto de perfil" />
+                <img class="h-full w-full rounded-full" src="~/assets/img/avatar.png" alt="Foto de perfil" />
             </div>
         </div>
         <div class="mt-16 flex flex-col items-center">

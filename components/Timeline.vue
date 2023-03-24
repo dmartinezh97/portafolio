@@ -47,21 +47,9 @@
 
                             <!-- <GithubNewCommit tipo="Completada" color="purple" text="dmartinezh97 comenzó una formación sobre Nuxt 3"></GithubNewCommit> -->
 
-                            <li class="relative flex gap-x-4 items-center justify-between pb-7 overflow-hidden">
-                                <div class="flex gap-x-4 w-full">
-                                    <div class="relative h-full">
-                                        <div
-                                            class="absolute top-7 bottom-0 left-2.5 w-px h-96 -ml-px border-r border-dashed border-gray-300">
-                                        </div>
-                                        <img class="w-6 h-6 rounded-full shadow-lg"
-                                            src="https://flowbite.com/docs/images/people/profile-picture-5.jpg"
-                                            alt="Bonnie image" />
-                                    </div>
-                                    <div class="w-full items-center justify-between p-4 text-xs text-gray-600 bg-white border border-gray-200 rounded-lg shadow-sm sm:flex ">
-                                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quas unde corporis consequuntur cupiditate sint nam nostrum, dignissimos ea animi eaque! Quod odit debitis distinctio itaque vitae, accusantium aspernatur consequuntur excepturi.
-                                    </div>
-                                </div>
-                            </li>
+                            <GithubNewComment text="Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident expedita ab error rem, praesentium totam placeat nemo perferendis, consectetur commodi eligendi excepturi voluptatum esse vitae assumenda ad dolorem mollitia cupiditate."></GithubNewComment>
+                            <GithubNewComment text="Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident expedita ab error rem, praesentium totam placeat nemo perferendis, consectetur commodi eligendi excepturi voluptatum esse vitae assumenda ad dolorem mollitia cupiditate."></GithubNewComment>
+
 
                             <GithubNewMerge text="dmartinezh97 fue contratado como Full-Stack Developer en AT Infoserveis">
                             </GithubNewMerge>
