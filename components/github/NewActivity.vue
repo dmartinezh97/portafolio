@@ -7,7 +7,7 @@
                 <component :is="getIcon"></component>
             </div>
             <p
-                class="py-1.5 px-2.5 rounded-full text-xs font-medium text-gray-600 bg-white border border-gray-200 shadow-smb">
+                class="py-1.5 px-2.5 rounded-full text-xs font-medium text-gray-600 bg-white border border-gray-200 shadow-sm">
                 {{ text }}
             </p>
         </div>

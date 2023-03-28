@@ -41,54 +41,47 @@
                              <!-- <GithubNewActivity tipo="Commit" text="test 01" text-tipo="no sé"></GithubNewActivity>
                              <GithubNewActivity tipo="Merged" text="test 02 " text-tipo="no sé"></GithubNewActivity> -->
 
-                            <GithubNewActivity tipo="Commit" text="dmartinezh97 comenzó una formación sobre Nuxt 3" text-tipo="no sé" color="bg-orange-500" color-text="bg-orange-100 text-orange-800"></GithubNewActivity>
+                            <GithubNewActivity tipo="Commit" text="dmartinezh97 comenzó una formación sobre Nuxt 3" text-tipo="En progreso" color="bg-orange-500" color-text="bg-orange-100 text-orange-800"></GithubNewActivity>
 
-                            <GithubNewActivity tipo="Commit" text="dmartinezh97 comenzó una formación sobre Nuxt 3" text-tipo="no sé" color="bg-orange-500" color-text="bg-orange-100 text-orange-800"></GithubNewActivity>
+                            <GithubNewComment fecha="Junio 2022 - Actualmente">
+                                <ul class="ml-4 list-disc list-outside">
+                                    <li>Vue.JS, Vuetify, Express.js</li>
+                                    <li>Implementación de evolutivos y correctivos de frontend y conexión con el backend</li>
+                                    <li>Implementación de nuevas pantallas en un software de planificación de turnos y control de horario</li>
+                                    <li>Desarrollo de módulos de aplicación interna BOLD para una</li>
+                                </ul>
+                            </GithubNewComment>
+                            
+                            <GithubNewActivity tipo="Merged" text="dmartinezh97 obtuvo un trabajo como Front-End en Global Planning Solutions" text-tipo="Actualmente" color="bg-green-500" color-text="bg-green-100 text-green-800"></GithubNewActivity>
 
-                            <GithubNewActivity text="dmartinezh97 comenzó una formación sobre Nuxt 3" text-tipo="no sé" color="bg-orange-500" color-text="bg-orange-100 text-orange-800"></GithubNewActivity>
+                            <GithubNewComment fecha="Febrero 2020 - Mayo 2022">
+                                <ul class="ml-4 list-disc list-outside">
+                                    <li>Vue.JS, React Native y .NET</li>
+                                    <li>Desarrollo de aplicaciones web y muliplataforma a medida</li>
+                                    <li>Desarrollo de integraciones con A3ERP. Sincronizadores, sitios web, aplicaciones y software de gestión de planta</li>
+                                    <li>Desarrollo de integraciones con Prestashop, Salesforce, Zoho y Wordpress</li>
+                                </ul>
+                            </GithubNewComment>
 
-                            <GithubNewMerge tipo="Actualmente" color="green"
-                                text="dmartinezh97 obtuvo un trabajo como Front-End en Global Planning Solutions">
-                            </GithubNewMerge>
+                            <GithubNewActivity tipo="Merged" text="dmartinezh97 fue contratado como Full-Stack Developer en AT Infoserveis"></GithubNewActivity>
 
-                            <!-- <GithubNewCommit tipo="Completada" color="purple" text="dmartinezh97 comenzó una formación sobre Nuxt 3"></GithubNewCommit> -->
+                            <GithubNewActivity tipo="Merged" text="dmartinezh97 se unió a AdStorm"></GithubNewActivity>
 
-                            <GithubNewComment text="Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident expedita ab error rem, praesentium totam placeat nemo perferendis, consectetur commodi eligendi excepturi voluptatum esse vitae assumenda ad dolorem mollitia cupiditate."></GithubNewComment>
-                            <GithubNewComment text="Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident expedita ab error rem, praesentium totam placeat nemo perferendis, consectetur commodi eligendi excepturi voluptatum esse vitae assumenda ad dolorem mollitia cupiditate."></GithubNewComment>
+                            <GithubNewActivity tipo="Commit" text="Cursó un grado de Administración de Sistemas Informáticos en Red a nivel de grado superior"></GithubNewActivity>
 
+                            <GithubNewActivity tipo="Commit" text="Se graduó en Desarrollo de Aplicaciones Multiplataforma a nivel de grado superior"></GithubNewActivity>
 
-                            <GithubNewMerge text="dmartinezh97 fue contratado como Full-Stack Developer en AT Infoserveis">
-                            </GithubNewMerge>
+                            <GithubNewActivity tipo="Commit" text="Se graduó en Sistemas Microinformáticos y Redes a nivel de grado medio"></GithubNewActivity>
 
-                            <GithubNewMerge text="dmartinezh97 se unió a AdStorm"></GithubNewMerge>
+                            <GithubNewActivity tipo="Merged" text="Participó en un programa de prácticas en Audens Food S.A."></GithubNewActivity>
 
-                            <GithubNewCommit
-                                text="Cursó un grado de Administración de Sistemas Informáticos en Red a nivel de grado superior">
-                            </GithubNewCommit>
+                            <GithubNewActivity tipo="Commit" text="Añadió la informatica a la branch de intereses"></GithubNewActivity>
 
-                            <GithubNewCommit
-                                text="Se graduó en Desarrollo de Aplicaciones Multiplataforma a nivel de grado superior">
-                            </GithubNewCommit>
-
-                            <GithubNewCommit text="Se graduó en Sistemas Microinformáticos y Redes a nivel de grado medio">
-                            </GithubNewCommit>
-
-                            <GithubNewMerge text="Participó en un programa de prácticas en Audens Food S.A.">
-                            </GithubNewMerge>
-
-                            <GithubNewCommit text="Añadió la informatica a la branch de intereses"></GithubNewCommit>
-
-                            <GithubNewMerge tipo="Merged" color="purple"
-                                text="dmartinezh97 merged commit d31m10h97 en master el 31 de octubre de 1997">
-                            </GithubNewMerge>
+                            <GithubNewActivity tipo="Merged" text="dmartinezh97 merged commit d31m10h97 en master el 31 de octubre de 1997" text-tipo="Merged" color="bg-purple-500" color-text="bg-purple-100 text-purple-800"></GithubNewActivity>
                         </ul>
-                        <!-- End Timeline -->
                     </div>
                 </div>
             </div>
         </div>
-        <!-- End Card -->
-
-
     </div>
 </template>
