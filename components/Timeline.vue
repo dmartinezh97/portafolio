@@ -46,9 +46,10 @@
                             <GithubNewComment fecha="Junio 2022 - Actualmente">
                                 <ul class="ml-4 list-disc list-outside">
                                     <li>Vue.JS, Vuetify, Express.js</li>
+                                    <li>Mejoras en el rendimiento y en la interfaz del usuario</li>
                                     <li>Implementación de evolutivos y correctivos de frontend y conexión con el backend</li>
                                     <li>Implementación de nuevas pantallas en un software de planificación de turnos y control de horario</li>
-                                    <li>Desarrollo de módulos de aplicación interna BOLD para una</li>
+                                    <li>Desarrollo de módulos o características para la aplicación BOLD</li>
                                 </ul>
                             </GithubNewComment>
                             
