@@ -1,13 +1,13 @@
 <template>
     <li class="relative flex gap-x-4 items-center justify-between pb-7 overflow-hidden">
-        <div class="flex gap-x-4">
+        <div class="flex gap-x-2 md:gap-x-4 items-center">
             <div class="mt-0.5 relative h-full">
                 <div class="absolute top-7 bottom-0 left-2.5 w-px h-96 -ml-px border-r border-dashed border-gray-300">
                 </div>
                 <component :is="getIcon"></component>
             </div>
             <p
-                class="py-1.5 px-2.5 rounded-full text-xs font-medium text-gray-600 bg-white border border-gray-200 shadow-sm">
+                class="py-1.5 px-2.5 rounded-full text-xs font-medium text-gray-600 bg-white md:border md:border-gray-200 md:shadow-sm">
                 {{ text }}
             </p>
         </div>

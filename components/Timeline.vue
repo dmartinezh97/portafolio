@@ -2,7 +2,7 @@
     <div class="col-span-12 md:col-span-6 lg:col-span-4 md:order-1 grid gap-4 xl:gap-6">
         <!-- Card -->
         <div
-            class="md:order-2 relative before:absolute before:inset-0 before:z-10 before:border before:border-gray-200 before:rounded-xl before:transition before:hover:border-2 before:hover:border-blue-600 before:hover:shadow-lg after:absolute after:inset-x-0.5 after:bottom-0.5 after:z-10 after:w-[calc(100%-4px)] after:h-20 after:rounded-b-xl after:bg-gradient-to-t after:from-white after:via-white/[.9] after:to-white/[.4]">
+            class="md:order-2 relative border border-gray-200 rounded-xl shadow after:absolute after:inset-x-0.5 after:bottom-0.5 after:z-10 after:w-[calc(100%-4px)] after:h-20 after:rounded-b-xl after:bg-gradient-to-t after:from-white after:via-white/[.9] after:to-white/[.4]">
             <div class="relative overflow-hidden w-full h-full rounded-xl">
                 <div class="p-6 flex bg-white flex-col justify-between md:min-h-[480px] text-center rounded-xl">
                     <div>
@@ -20,18 +20,20 @@
                             </defs>
                         </svg>
 
-                        <!-- <h3 class="text-lg md:text-xl font-semibold text-gray-800 dark:text-gray-200">
+                        <h3 class="text-lg md:text-xl font-semibold text-gray-800 dark:text-gray-200">
                             Open source
                         </h3>
                         <p class="mt-2 text-gray-500">
                             Open Source. Find the entire code on our GitHub.
-                        </p> -->
+                        </p>
                         <!-- Open Source Software. Find the entire code on our GitHub. -->
                     </div>
-
                     <div class="mt-8">
+                        <div class="flex justify-end">
+                            <FormsToggle v-model="ordenReciente" text="Más reciente primero"></FormsToggle>
+                        </div>
                         <!-- Timeline -->
-                        <ul class="flex flex-col text-left space-y-1.5">
+                        <ul :class="getObjectClass" class="flex flex-col text-left space-y-1.5">
                             <!-- 
                                 Dani obtuvo un trabajo como Front-End en Global Planning Solutions.
                                 Dani fue contratado como Front-End en Global Planning Solutions.
@@ -86,3 +88,23 @@
         </div>
     </div>
 </template>
+
+<script>
+export default {
+    name: "Timeline",
+    data(){
+        return {
+            ordenReciente: true,
+        }
+    },
+    computed: {
+        getObjectClass(){
+            return {
+                'flex-col': this.ordenReciente,
+                'flex-col-reverse': !this.ordenReciente,
+                
+            }
+        }
+    }
+}
+</script>

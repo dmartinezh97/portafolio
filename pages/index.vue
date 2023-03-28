@@ -1,16 +1,16 @@
 <template>
     <div>
-        <div class="contenedor p-4">
-            <div class="aside p-2">
+        <div class="contenedor gap-y-4 p-2 md:p-4 flex flex-col lg:grid">
+            <div class="aside md:p-2">
                 <Informacion></Informacion>
             </div>
-            <div class="main p-2">
+            <div class="main md:p-2">
                 <Timeline></Timeline>
             </div>
-            <div class="info p-2">
+            <div class="info md:p-2">
                 <Articulos></Articulos>
             </div>
-            <div class="feed p-2">
+            <div class="feed md:p-2">
                 Feed de twitter con.. ¿Qué datos? :)
             </div>
         </div>
@@ -19,7 +19,7 @@
 
 <style>
 .contenedor{
-    display: grid;
+    /* display: grid; */
     grid-template-areas: "aside main main info"
                          "aside main main info"
                          ". feed feed .";

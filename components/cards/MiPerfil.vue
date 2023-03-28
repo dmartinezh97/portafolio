@@ -1,6 +1,6 @@
 <template>
     <div
-        class="relative flex flex-col items-center rounded-[20px] mx-auto bg-white bg-clip-border shadow-3xl shadow-shadow-500">
+        class="relative flex flex-col items-center rounded-[20px] mx-auto bg-white bg-clip-border">
         <div class="relative flex h-32 w-full justify-center rounded-xl bg-cover">
             <div class="w-full h-32 rounded-xl bg-gradient-to-r from-[#42d392] to-[#647eff]"></div>
             <!-- <img alt="Degradado" src='https://horizon-tailwind-react-git-tailwind-components-horizon-ui.vercel.app/static/media/banner.ef572d78f29b0fee0a09.png'
