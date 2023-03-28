@@ -38,8 +38,14 @@
                                 Dani se unió a Global Planning Solutions como Front-End.
                                 Dani comenzó a trabajar como Front-End en Global Planning Solutions.
                              -->
-                            <GithubNewCommit tipo="En progreso" color="orange"
-                                text="dmartinezh97 comenzó una formación sobre Nuxt 3"></GithubNewCommit>
+                             <!-- <GithubNewActivity tipo="Commit" text="test 01" text-tipo="no sé"></GithubNewActivity>
+                             <GithubNewActivity tipo="Merged" text="test 02 " text-tipo="no sé"></GithubNewActivity> -->
+
+                            <GithubNewActivity tipo="Commit" text="dmartinezh97 comenzó una formación sobre Nuxt 3" text-tipo="no sé" color="bg-orange-500" color-text="bg-orange-100 text-orange-800"></GithubNewActivity>
+
+                            <GithubNewActivity tipo="Commit" text="dmartinezh97 comenzó una formación sobre Nuxt 3" text-tipo="no sé" color="bg-orange-500" color-text="bg-orange-100 text-orange-800"></GithubNewActivity>
+
+                            <GithubNewActivity text="dmartinezh97 comenzó una formación sobre Nuxt 3" text-tipo="no sé" color="bg-orange-500" color-text="bg-orange-100 text-orange-800"></GithubNewActivity>
 
                             <GithubNewMerge tipo="Actualmente" color="green"
                                 text="dmartinezh97 obtuvo un trabajo como Front-End en Global Planning Solutions">
@@ -78,9 +84,6 @@
                         </ul>
                         <!-- End Timeline -->
                     </div>
-                </div>
-
-                <div class="absolute top-1/2 -left-1/2 -z-[1] w-60 h-32 bg-purple-200 blur-[100px] -translate-y-1/2">
                 </div>
             </div>
         </div>
