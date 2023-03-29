@@ -11,7 +11,7 @@
                 {{ text }}
             </p>
         </div>
-        <span v-if="textTipo" class="inline-flex items-center h-6 text-xs font-medium px-2.5 py-0.5 rounded-full" :class="colorText">
+        <span v-if="textTipo" class="inline-flex items-center whitespace-nowrap h-6 text-xs font-medium px-2.5 py-0.5 rounded-full" :class="colorText">
             <span class="w-2 h-2 mr-1 rounded-full " :class="color"></span>
             {{ textTipo }}
         </span>
