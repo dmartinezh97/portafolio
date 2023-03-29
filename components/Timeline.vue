@@ -23,8 +23,10 @@
                         <h3 class="text-lg md:text-xl font-semibold text-gray-800 dark:text-gray-200">
                             Sobre mi
                         </h3>
-                        <p class="mt-2 text-gray-500">
-                            En este apartado podrás conocer mi trayectoria en el mundo de la programación, incluyendo proyectos que he realizado en diversas áreas y tecnologías. Los proyectos en los que he participado, así como las habilidades y conocimientos adquiridos durante este camino.
+                        <p class="mt-2 text-gray-500 max-w-md">
+                            En este apartado podrás conocer los proyectos en los que he participado, así como las habilidades y conocimientos adquiridos durante mi trayectoria como programador.
+                            <!-- En este apartado podrás conocer mi trayectoria en el mundo de la programación, incluyendo proyectos que he realizado en diversas áreas y tecnologías. Los proyectos en los que he participado, así como las habilidades y conocimientos adquiridos durante este camino. -->
+                            <!-- En este apartado, encontrarás una lista detallada de mi experiencia como programador, incluyendo proyectos que he realizado en diversas áreas y tecnologías. Desde mi formación académica hasta mis experiencias laborales, podrás conocer mi trayectoria en el mundo de la programación y los proyectos en los que he participado, así como las habilidades y conocimientos adquiridos durante este camino. -->
                         </p>
                         <!-- Open Source Software. Find the entire code on our GitHub. -->
                     </div>
