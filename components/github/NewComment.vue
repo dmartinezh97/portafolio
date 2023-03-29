@@ -8,7 +8,7 @@
                 src="https://flowbite.com/docs/images/people/profile-picture-5.jpg" alt="Bonnie image" />
             </div>
             <div
-            class="w-full items-center justify-between p-4 text-xs text-gray-600 bg-white border border-gray-200 rounded-lg shadow-sm sm:flex">
+            class="w-full items-center justify-between p-4 pt-6 text-xs text-gray-600 bg-white border border-gray-200 rounded-lg shadow-sm sm:flex">
                 <time v-if="fecha" class="absolute top-2 right-3 text-xs font-normal text-gray-400">{{ fecha }}</time>
                 <div v-if="text">{{ text }}</div>
                 <slot></slot>
