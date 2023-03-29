@@ -21,7 +21,7 @@
                         </svg>
 
                         <h3 class="text-lg md:text-xl font-semibold text-gray-800 dark:text-gray-200">
-                            Open source
+                            Sobre mi
                         </h3>
                         <p class="mt-2 text-gray-500">
                             Open Source. Find the entire code on our GitHub.
@@ -34,14 +34,6 @@
                         </div>
                         <!-- Timeline -->
                         <ul :class="getObjectClass" class="flex flex-col text-left space-y-1.5">
-                            <!-- 
-                                Dani obtuvo un trabajo como Front-End en Global Planning Solutions.
-                                Dani fue contratado como Front-End en Global Planning Solutions.
-                                Dani se unió a Global Planning Solutions como Front-End.
-                                Dani comenzó a trabajar como Front-End en Global Planning Solutions.
-                             -->
-                             <!-- <GithubNewActivity tipo="Commit" text="test 01" text-tipo="no sé"></GithubNewActivity>
-                             <GithubNewActivity tipo="Merged" text="test 02 " text-tipo="no sé"></GithubNewActivity> -->
 
                             <GithubNewActivity tipo="Commit" text="dmartinezh97 comenzó una formación sobre Nuxt 3" text-tipo="En progreso" color="bg-orange-500" color-text="bg-orange-100 text-orange-800"></GithubNewActivity>
 
