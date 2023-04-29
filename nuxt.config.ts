@@ -15,13 +15,26 @@ export default defineNuxtConfig({
             link: [
                 { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
             ]
+        },
+    },
+    content: {
+        highlight: {
+            preload: [
+                'vue',
+                'js',
+                'html',
+                'css'
+            ],
+            theme: {
+                default: 'github-dark',
+            }
         }
     },
     modules: [
+        '@nuxt/content',
         '@nuxtjs/tailwindcss',
-        '@nuxt/content'
     ],
     css: [
         '@/assets/css/main.css'
-    ]
+    ],
 })
