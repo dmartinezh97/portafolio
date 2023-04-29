@@ -10,8 +10,7 @@
                 <ul class="my-4 space-y-3">
                     <li v-for="articulo in list" :key="articulo.slug">
                         <NuxtLink :to="articulo._path" class="flex items-center p-3 text-base font-bold text-gray-900 rounded-lg bg-gray-50 hover:bg-gray-100 group hover:shadow">
-                            <IconsIconJavascript></IconsIconJavascript>
-                            <IconsIconVue></IconsIconVue>
+                            <component :is="getIcon(articulo.icon)"></component>
                             <span class="flex-1 ml-3 whitespace-nowrap truncate">{{ articulo.title }}</span>
                             <span class="inline-flex items-center justify-center px-2 py-0.5 ml-3 text-xs font-medium text-gray-500 bg-gray-200 rounded">Popular</span>
                         </NuxtLink>
@@ -32,14 +31,22 @@
     </div>
 </template>
 
-<script setup>
-const articlesQuery = queryContent('articles')
-/*
-// If you'd prefer to pass along raw `QueryBuilderParams`:
-const catsQuery = {
-  where: [
-    { _path: /^\/cats/ },
-  ],
+<script>
+import IconJavascript from './icons/IconJavascript.vue';
+import IconVue from './icons/IconVue.vue';
+
+export default {
+    methods: {
+        getIcon(icon) {
+            switch (icon) {
+                case 'JavaScript':
+                    return IconJavascript
+                case 'Vue':
+                    return IconVue
+                default:
+                    return IconVue
+            }
+        }
+    }
 }
-*/
 </script>
