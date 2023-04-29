@@ -20,7 +20,7 @@
                             </defs>
                         </svg>
 
-                        <h3 class="text-lg md:text-xl font-semibold text-gray-800 dark:text-gray-200">
+                        <h3 class="text-lg md:text-xl font-semibold text-gray-800">
                             Sobre mi
                         </h3>
                         <p class="mt-2 text-gray-500 max-w-xl mx-auto">

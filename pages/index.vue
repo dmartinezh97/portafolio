@@ -1,18 +1,23 @@
 <template>
-    <div>
+    <div class="container mx-auto">
+        <div class="px-4 py-14">
+            <CardsMiInformacion></CardsMiInformacion>
+            <CardsMisLenguajes></CardsMisLenguajes>
+        </div>
         <div class="contenedor gap-y-4 p-2 md:p-4 flex flex-col lg:grid">
-            <div class="aside md:p-2">
-                <Informacion></Informacion>
+            <div class="proyectos md:p-2">
+                <TabsUnderlineNav></TabsUnderlineNav>
+                <Proyectos></Proyectos>
             </div>
-            <div class="main md:p-2">
-                <Timeline></Timeline>
-            </div>
-            <div class="info md:p-2">
+            <div class="articulos md:p-2">
                 <Articulos></Articulos>
             </div>
-            <div class="feed md:p-2">
-                Feed de twitter con.. ¿Qué datos? :)
+            <div class="timeline md:p-2">
+                <Timeline></Timeline>
             </div>
+            <!-- <div class="feed md:p-2">
+                Feed de twitter con.. ¿Qué datos? :)
+            </div> -->
         </div>
     </div>
 </template>
@@ -20,22 +25,22 @@
 <style>
 .contenedor{
     /* display: grid; */
-    grid-template-areas: "aside main main info"
-                         "aside main main info"
-                         ". feed feed .";
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-areas: "proyectos proyectos articulos"
+                         "proyectos proyectos articulos"
+                         "timeline timeline .";
+    grid-template-columns: repeat(3, 1fr);
 }
 
-.aside{
-    grid-area: aside;
+.proyectos{
+    grid-area: proyectos;
 }
 
-.main{
-    grid-area: main;
+.timeline{
+    grid-area: timeline;
 }
 
-.info{
-    grid-area: info;
+.articulos{
+    grid-area: articulos;
 }
 
 .feed{
