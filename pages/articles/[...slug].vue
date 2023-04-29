@@ -20,14 +20,11 @@
               </div>
             </div>
           </header>
-          <div id="articleBody">
+          <div id="articleBody" class="prose prose-gray prose-lg max-w-none">
             <ContentRenderer :value="doc" />
           </div>
         </div>
       </div>
-      <!-- <pre>
-          {{ doc }}
-        </pre> -->
     </ContentDoc>
   </article>
 </template>
