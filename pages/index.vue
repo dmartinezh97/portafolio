@@ -7,13 +7,13 @@
         <div class="contenedor gap-y-4 p-2 md:p-4 flex flex-col lg:grid">
             <div class="proyectos md:p-2">
                 <TabsUnderlineNav></TabsUnderlineNav>
-                <Proyectos></Proyectos>
+                <!-- <Proyectos></Proyectos> -->
             </div>
             <div class="articulos md:p-2">
                 <Articulos></Articulos>
             </div>
             <div class="timeline md:p-2">
-                <Timeline></Timeline>
+                <!-- <Timeline></Timeline> -->
             </div>
             <!-- <div class="feed md:p-2">
                 Feed de twitter con.. ¿Qué datos? :)

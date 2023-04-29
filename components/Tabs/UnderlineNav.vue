@@ -3,7 +3,7 @@ import TabsResumen from '../Tabs/Resumen.vue';
 import TabsRepositorios from '../Tabs/Repositorios.vue';
 import IconPerson from '../icons/IconPerson.vue';
 import IconRepositorio from '../icons/IconRepositorio.vue';
-import Timeline from '../Timeline.vue';
+import TabsTimeline from '../Tabs/Timeline.vue';
 
 const contentActive = shallowRef(TabsResumen)
 const itemActive = ref(1)
@@ -24,7 +24,7 @@ const listadoNavbar = [
         id: 3,
         text: "Sobre mi",
         icon: IconRepositorio,
-        content: Timeline
+        content: TabsTimeline
     },
 ]
 
