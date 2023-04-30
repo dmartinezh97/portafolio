@@ -1,5 +1,5 @@
 <template>
-  <article id="article" class="w-full max-w-[800px] mx-auto">
+  <article id="article" class="flex w-full max-w-[800px] mx-auto">
     <ContentDoc v-slot="{ doc }">
       <div id="article-content-wrapper" class="my-12">
         <div id="article-content">
@@ -12,7 +12,7 @@
               <div id="article-meta" class="mt-3 text-xs flex items-center gap-x-1">
                 <time>{{ formatDate(doc.date) }}</time>
                 ·
-                <span>3 minutos de lectura</span>
+                <span>{{ doc.tiempo }} minutos de lectura</span>
                 ·
                 <a target="_blank" rel="noopener nofollow" class="flex items-center"
                   :href="'https://github.com/dmartinezh97/portafolio/edit/master/content/' + doc._file">¿Una
@@ -24,6 +24,14 @@
             <ContentRenderer :value="doc" />
           </div>
         </div>
+      </div>
+      <div class="block fixed right-10 z-[2] max-w-[224px] mt-12" v-if="doc.toc">
+        <h3 class="text-sm pb-2 font-normal ">Contenido del artículo</h3>
+        <ul class="list-none list-outside">
+          <li v-for="link in doc.body.toc.links" class="leading-6 text-xs font-medium text-gray-500">
+            <a :href="'#' + link.id">{{ link.text }}</a>
+          </li>
+        </ul>
       </div>
     </ContentDoc>
   </article>
@@ -44,6 +52,9 @@ export default {
         default:
           return IconVue
       }
+    },
+    scrollToTop(id) {
+      this.$scrollTo(id)
     },
     formatDate(date) {
       const options = { year: "numeric", month: "long", day: "numeric" };

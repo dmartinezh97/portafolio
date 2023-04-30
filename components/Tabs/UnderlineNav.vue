@@ -43,7 +43,7 @@ const onClickCurrentTab = (item: any) => {
                     class="mr-2">
                     <!-- inline-flex p-4 text-blue-600 border-b-2 border-blue-600 rounded-t-lg active dark:text-blue-500 dark:border-blue-500 group -->
                     <div
-                        class="inline-flex p-4 border-b-2 border-transparent rounded-t-lg cursor-pointer group"
+                        class="inline-flex p-4 border-b-2 rounded-t-lg cursor-pointer group"
                         :class="[itemActive == item.id ? 'border-blue-500' : 'hover:border-gray-300 hover:text-gray-300']">
                         <component :is="item.icon" class="w-5 h-5 mr-2" :class="[itemActive == item.id ? 'text-blue-500' : 'text-gray-500 group-hover:text-gray-300']"></component>
                         {{ item.text }}

@@ -4,6 +4,8 @@ description: >-
     'Una breve introfucción sobre las diferencias entre
     dos características importantes de Vue 3: Reactive y Ref.'
 date: '2023-04-29'
+toc: true
+tiempo: 3
 tags: 
 - Vue 3
 - Ref
