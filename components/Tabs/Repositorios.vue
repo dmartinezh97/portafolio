@@ -12,5 +12,12 @@ const search = ref("")
                 asd
             </div> -->
         </div>
+        <div class="flex">
+            <ul class="w-full">
+                <li class="flex justify-between w-full border-b-[1px] border-solid border-[#373E47] py-6 text-[#ADBAC7]">
+                    jj
+                </li>
+            </ul>
+        </div>
     </div>
 </template>

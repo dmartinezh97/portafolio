@@ -37,11 +37,9 @@ const onClickCurrentTab = (item: any) => {
 
 <template>
     <div class="w-full bg-white border border-gray-200 rounded-lg shadow">
-        <div class="border-b border-gray-200">
-            <ul class="flex flex-wrap -mb-px text-sm font-medium text-center text-gray-500">
-                <li v-for="item in listadoNavbar" @click="onClickCurrentTab(item)" :class="{ 'text-blue-500' : itemActive == item.id }" :key="'UnderlineNav' + item.id"
-                    class="mr-2">
-                    <!-- inline-flex p-4 text-blue-600 border-b-2 border-blue-600 rounded-t-lg active dark:text-blue-500 dark:border-blue-500 group -->
+        <div class="border-b-2 border-gray-200">
+            <ul class="flex flex-wrap -mb-0.5 text-sm font-medium text-center text-gray-500">
+                <li v-for="item in listadoNavbar" @click="onClickCurrentTab(item)" :class="{ 'text-blue-500' : itemActive == item.id }" :key="'UnderlineNav' + item.id">
                     <div
                         class="inline-flex p-4 border-b-2 rounded-t-lg cursor-pointer group"
                         :class="[itemActive == item.id ? 'border-blue-500' : 'hover:border-gray-300 hover:text-gray-300']">
