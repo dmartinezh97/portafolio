@@ -8,7 +8,7 @@
             </h1>
             <p class="text-lg text-gray-900">
                 Me apasiona crear aplicaciones web limpias y fáciles de usar.
-                Enfocado en .NET Core y Vue. Aunque también sigo muy de cerca todo
+                Enfocado en Vue y .NET Core. Aunque también sigo muy de cerca todo
                 lo relacionado con la seguridad informática.
             </p>
             <NuxtLink

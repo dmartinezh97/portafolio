@@ -23,9 +23,9 @@ const proyectos = [
         color: "#41B883"
     },
     {
-        nombre: "AudioTranslate",
-        descripcion: "Convertir audio a texto con la herramienta Whisper de OpenAI",
-        slug: "audiotranslate",
+        nombre: "Audio2Resumen",
+        descripcion: "Transcripción de audio a texto utilizando la herramienta Whisper de OpenAI. Generación de texto y resúmenes precisos y concisos.",
+        slug: "audio-2-resumen",
         tipo: "Publico",
         fecha: "2023-05-02",
         lenguaje: "JavaScript",
