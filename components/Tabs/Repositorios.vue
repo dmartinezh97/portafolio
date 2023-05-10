@@ -5,12 +5,31 @@ const URL_GITHUB = "https://github.com/dmartinezh97/"
 const search = ref("")
 const proyectos = [
     {
+        nombre: "vue3-vuetify3-i18n-template",
+        descripcion: "Boilerplate Vue 3 + Vuetify 3 + Pinia + i18n + VueUse",
+        slug: "vue3-vuetify3-i18n-template",
+        tipo: "Privado",
+        fecha: "2022-06-20", //Updated Apr 30, 2023
+        lenguaje: "Vue",
+        color: "#41B883"
+    },
+    {
         nombre: "gpt4-pdf-chatbot-langchain",
         descripcion: "GPT4 & LangChain Chatbot for large PDF docs",
         slug: "gpt4-pdf-chatbot-langchain",
         tipo: "Privado",
-        fecha: "Updated Apr 30, 2023",
-        lenguaje: "Vue"
+        fecha: "2023-04-30", //Updated Apr 30, 2023
+        lenguaje: "Vue",
+        color: "#41B883"
+    },
+    {
+        nombre: "AudioTranslate",
+        descripcion: "Convertir audio a texto con la herramienta Whisper de OpenAI",
+        slug: "audiotranslate",
+        tipo: "Publico",
+        fecha: "2023-05-02",
+        lenguaje: "JavaScript",
+        color: "#FFFF00"
     }
 ]
 
@@ -23,6 +42,11 @@ const proyectosFiltrados = computed(() => {
         proyecto.tipo.toLowerCase().includes(valBuscador)
     })
 })
+
+const formatDate = (date: string) => {
+    const options: Intl.DateTimeFormatOptions = { year: "numeric", month: "long", day: "numeric" };
+    return new Date(date).toLocaleDateString("es", options);
+}
 
 </script>
 
@@ -54,10 +78,10 @@ const proyectosFiltrados = computed(() => {
                         </div>
                         <div class="flex text-xs mt-2">
                             <span class="ml-0 mr-3">
-                                <span class="relative inline-block w-3 h-3 top-[1px] mr-[2px] rounded-[50%] border border-solid border-[#cdd9e533] repo-language-color" style="background-color: #41b883"></span>
+                                <span class="relative inline-block w-3 h-3 top-[2px] mr-1 rounded-[50%] border border-solid border-[#cdd9e533] repo-language-color" :style="'background-color:'+ proyecto.color"></span>
                                 <span>{{ proyecto.lenguaje }}</span>
                             </span>
-                             <div datetime="2023-04-30T16:02:20Z" class="no-wrap" title="Apr 30, 2023, 6:02 PM GMT+2">{{ proyecto.fecha }}</div>
+                             <div :date="proyecto.fecha" class="no-wrap">{{ formatDate(proyecto.fecha) }}</div>
                         </div>
                     </div>
                     <div class="w-2/12 ml-3">

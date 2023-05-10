@@ -5,8 +5,8 @@ import IconPerson from '../icons/IconPerson.vue';
 import IconRepositorio from '../icons/IconRepositorio.vue';
 import TabsTimeline from '../Tabs/Timeline.vue';
 
-const contentActive = shallowRef(TabsResumen)
-const itemActive = ref(1)
+const contentActive = shallowRef(TabsRepositorios)
+const itemActive = ref(2)
 const listadoNavbar = [
     {
         id: 1,
