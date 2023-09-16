@@ -1,7 +1,7 @@
 <template>
   <article id="article" class="flex w-full max-w-[800px] mx-auto">
     <ContentDoc v-slot="{ doc }">
-      <div id="article-content-wrapper" class="my-12">
+      <div id="article-content-wrapper" class="my-12 px-4">
         <div id="article-content">
           <header id="article-header" class="flex items-center mb-9">
             <picture class="mr-3">
