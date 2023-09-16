@@ -9,9 +9,9 @@
               <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
             </svg>
           </button>
-          <a class="flex" href="/">
+          <NuxtLink class="flex" to="/">
             <span class="text-xl ml-2">Daniel Martínez</span>
-          </a>
+          </NuxtLink>
         </div>
         <div :class="[!toggleMenu ? 'hidden' : '', 'w-full bg-white rounded sm:bg-transparent sm:block sm:w-auto mt-3 sm:mt-0']">
           <nav :class="[!toggleMenu ? 'hidden' : 'flex', 'sm:flex flex-col sm:flex-row flex-wrap sm:items-center justify-center text-base sm:py-0 sm:space-x-6']">
