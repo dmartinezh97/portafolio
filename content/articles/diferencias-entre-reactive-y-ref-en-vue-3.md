@@ -1,8 +1,8 @@
 ---
 title: Diferencias entre Reactive y Ref en Vue 3
 description: >-
-    'Una breve introfucción sobre las diferencias entre
-    dos características importantes de Vue 3: Reactive y Ref.'
+    Una breve introducción sobre las diferencias entre
+    dos características importantes de Vue 3: Reactive y Ref.
 date: '2023-04-29'
 toc: true
 tiempo: 3
@@ -11,6 +11,7 @@ tags:
 - Ref
 - Reactive
 icon: Vue
+image-header:
 ---
 
 Vue 3 introduce una nueva API de composición que nos permite crear componentes reactivos de una forma más flexible y modular. Para ello, nos ofrece dos funciones principales: `ref()` y `reactive()`. Ambas nos permiten crear valores reactivos que se actualizan automáticamente cuando cambian, pero tienen algunas diferencias importantes que debemos conocer.

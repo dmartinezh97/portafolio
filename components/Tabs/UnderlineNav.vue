@@ -49,7 +49,7 @@ const onClickCurrentTab = (item: any) => {
                 </li>
             </ul>
         </div>
-        <div class="p-2">
+        <div class="pt-2 px-2">
             <component :is="contentActive" :key="contentActive.key"></component>
         </div>
     </div>

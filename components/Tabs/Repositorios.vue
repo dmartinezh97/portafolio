@@ -11,7 +11,8 @@ const proyectos = [
         tipo: "Privado",
         fecha: "2022-06-20", //Updated Apr 30, 2023
         lenguaje: "Vue",
-        color: "#41B883"
+        color: "#41B883",
+        logo: "vue3-i18n.jpg"
     },
     {
         nombre: "gpt4-pdf-chatbot-langchain",
@@ -20,16 +21,18 @@ const proyectos = [
         tipo: "Privado",
         fecha: "2023-04-30", //Updated Apr 30, 2023
         lenguaje: "Vue",
-        color: "#41B883"
+        color: "#41B883",
+        logo: "pdf-chatbot.jpg"
     },
     {
         nombre: "Audio2Resumen",
         descripcion: "Transcripción de audio a texto utilizando la herramienta Whisper de OpenAI. Generación de texto y resúmenes precisos y concisos.",
-        slug: "audio-2-resumen",
+        slug: "Audio2Resumen",
         tipo: "Publico",
         fecha: "2023-05-02",
         lenguaje: "JavaScript",
-        color: "#FFFF00"
+        color: "#FFFF00",
+        logo: "audio2resumen.jpg"
     }
 ]
 
@@ -62,9 +65,20 @@ const formatDate = (date: string) => {
         </div>
         <div class="flex">
             <ul class="w-full">
-                <li v-for="proyecto in proyectosFiltrados"
-                    class="flex justify-between w-full border-b-[1px] border-solid border-gray-300 py-6 text-gray-600">
-                    <div class="w-10/12 lg:w-9/12">
+                <li v-for="(proyecto, index) in proyectosFiltrados"
+                    :class="[index === (proyectosFiltrados.length -1) ? '' : 'border-b-[1px]', ' border-solid border-gray-300 py-6 text-gray-600']"
+                    class="flex justify-between w-full">
+                    <div class="w-2/12">
+                        <div class="flex items-center justify-center">
+                            <!-- <img v-if="proyecto.logo" class="h-full w-full rounded-md" :src="getImagePath(proyecto.logo)" :alt="proyecto.nombre" /> -->
+                            <img v-if="proyecto.logo" class="w-24 h-24 rounded-md" :src="`/images/repositorios/${proyecto.logo}`" :alt="proyecto.descripcion" />
+
+                            <!-- <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-8 h-8" viewBox="0 0 24 24">
+                                <path d="M22 12h-4l-3 9L9 3l-3 9H2"></path>
+                            </svg> -->
+                        </div>
+                    </div>
+                    <div class="w-8/12 lg:w-9/12">
                         <div class="inline-block mb-1">
                             <h3 class="flex items-center break-all text-xl font-semibold text-blue-500">
                                 <a :href="URL_GITHUB + proyecto.slug">{{ proyecto.nombre }}</a>
@@ -78,7 +92,7 @@ const formatDate = (date: string) => {
                         </div>
                         <div class="flex text-xs mt-2">
                             <span class="ml-0 mr-3">
-                                <span class="relative inline-block w-3 h-3 top-[2px] mr-1 rounded-[50%] border border-solid border-[#cdd9e533] repo-language-color" :style="'background-color:'+ proyecto.color"></span>
+                                <span class="relative inline-block w-3 h-3 top-[2px] mr-1 rounded-[50%] border border-solid border-[#cdd9e533]" :style="'background-color:'+ proyecto.color"></span>
                                 <span>{{ proyecto.lenguaje }}</span>
                             </span>
                              <div :date="proyecto.fecha" class="no-wrap">{{ formatDate(proyecto.fecha) }}</div>

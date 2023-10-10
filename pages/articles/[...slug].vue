@@ -20,7 +20,7 @@
               </div>
             </div>
           </header>
-          <div id="articleBody" class="prose prose-lg max-w-none">
+          <div id="articleBody" class="prose prose-lg max-w-none scroll-smooth">
             <ContentRenderer :value="doc" />
           </div>
         </div>
@@ -28,8 +28,11 @@
       <div class="block fixed right-10 z-[2] max-w-[224px] mt-12" v-if="doc.toc">
         <h3 class="text-sm pb-2 font-normal ">Contenido del artículo</h3>
         <ul class="list-none list-outside">
-          <li v-for="link in doc.body.toc.links" class="leading-6 text-xs font-medium text-gray-500">
-            <a :href="'#' + link.id">{{ link.text }}</a>
+          <li v-for="link in doc.body.toc.links">
+            <NuxtLink :to="{ hash: '#' + link.id }" class="leading-6 text-xs font-medium text-gray-500">
+              <!-- <a :href="'#' + link.id"></a> -->
+              <span>{{ link.text }}</span>
+            </NuxtLink>
           </li>
         </ul>
       </div>

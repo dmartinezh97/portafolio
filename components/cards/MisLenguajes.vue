@@ -4,13 +4,13 @@
             class="grid gap-4 grid-cols-2 md:grid-cols-3 justify-items-center lg:flex lg:flex-row lg:flex-wrap lg:gap-16 lg:justify-center text-sm font-semibold text-center text-gray-800">
             <div
                 class="clay z-10 flex flex-col items-center justify-center w-36 py-6 bg-white bg-opacity-60 shadow-gray-800/20 shadow-xl rounded-2xl backdrop-blur-sm bg-clip-padding border border-white border-opacity-80 backdrop-saturate-150">
-                <IconsIconTailwind :src="'/img/tailwindcss.svg'" alt="Tailwind CSS"
+                <IconsIconTailwind alt="Tailwind CSS"
                     class="w-16 h-16 md:w-20 md:h-20 mb-2 text-primary-500"></IconsIconTailwind>
                 Tailwind CSS
             </div>
             <div
                 class="clay z-10 flex flex-col items-center justify-center w-36 py-6 bg-white bg-opacity-60 shadow-gray-800/20 shadow-xl rounded-2xl backdrop-blur-sm bg-clip-padding border border-gray-100 border-opacity-80 backdrop-saturate-150">
-                <IconsIconVSCode :src="'/img/logos/vscode.svg'" alt="VS Code" class="w-16 h-16 md:w-20 md:h-20 mb-2 text-primary-500"></IconsIconVSCode>
+                <IconsIconVSCode alt="VS Code" class="w-16 h-16 md:w-20 md:h-20 mb-2 text-primary-500"></IconsIconVSCode>
                 VS Code
             </div>
             <div
@@ -20,7 +20,7 @@
             </div>
             <div
                 class="clay z-10 flex flex-col items-center justify-center w-36 py-6 bg-white bg-opacity-60 shadow-gray-800/20 shadow-xl rounded-2xl backdrop-blur-sm bg-clip-padding border border-gray-100 border-opacity-80 backdrop-saturate-150">
-                <IconsIconCSharp :src="'/img/csharp.svg'" alt="C#" class="w-16 h-16 md:w-20 md:h-20 mb-2 text-primary-500"></IconsIconCSharp>
+                <IconsIconCSharp alt="C#" class="w-16 h-16 md:w-20 md:h-20 mb-2 text-primary-500"></IconsIconCSharp>
                 C#
             </div>
             <div

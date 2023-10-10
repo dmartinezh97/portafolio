@@ -8,8 +8,8 @@
                     <NuxtLink :to="articulo._path" v-for="articulo in list" :key="articulo.slug"
                         class="flex flex-col items-start col-span-4 sm:col-span-1 md:col-span-1 overflow-hidden shadow-sm hover:shadow-lg rounded-xl">
                         <div class="block transition duration-200 ease-out transform hover:scale-110">
-                            <!-- <nuxt-img format="webp" class="object-cover w-full shadow-sm lg:max-h-56"
-                                :src="`/img/posts/${articulo.img}`" /> -->
+                            <img class="object-cover w-full shadow-sm lg:max-h-56"
+                                :src="`/images${articulo._path}/header.jpg`" />
                         </div>
                         <div
                             class="relative flex flex-col items-start px-6 bg-white border border-t-0 border-gray-200 py-7 rounded-b-2xl w-full h-full">
